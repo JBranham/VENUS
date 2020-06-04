@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f11e1b66-b9f3-4692-bc60-bbbedcfa6ef7"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="VENUS_Demo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="3aaf5a7a-6484-427f-ad3a-b06923fc14d9">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="83318af3-3b60-4968-a197-61e3217d9f1d"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='iexplore']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="0e0d72e0-93d8-4828-98ce-de2bc7493d96"
+	name="VENUS_DemoRepository"
+	relativepath="VENUS_DemoRepository.rxrep">
+		<codegen
+		classname="VENUS_DemoRepository"
+		namespace="VENUS_Demo">
+		</codegen>
+		<rootfolder
+		id="c117cbf5-fca2-4e90-a8e0-fda4b49ad90a"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

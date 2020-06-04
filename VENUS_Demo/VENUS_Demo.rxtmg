@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="VENUS_Demo"
+      id="d1699fee-c412-409f-adb8-d03baa6a9cc9"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="VENUS_Demo"
+      id="d1699fee-c412-409f-adb8-d03baa6a9cc9"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
